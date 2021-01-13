@@ -59,8 +59,15 @@
   padding: 50px;
   height: 200px; /* Should be removed. Only for demonstration */
 }
+.container {
+  color:bisque;
+  font-size: 20px;
+  text-emphasis-color: black;
 
-
+}
+.jumbotron {
+  color:#253b44;
+}
 
 /* Mobile Rules */
 @media screen and (max-width: 530px) {
@@ -76,5 +83,7 @@
 @media screen and (max-width: 400px) {
   .aText {
     font-size: 13px;
+    font: bold;
+  
   }
 }
