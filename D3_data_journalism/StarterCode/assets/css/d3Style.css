@@ -31,7 +31,7 @@
 }
 
 .stateCircle {
-  fill: #253b44;
+  fill: #fdfeff;
   stroke: #e3e3e3;
 }
 
@@ -55,20 +55,32 @@
 .column {
   float: left;
   width: 50%;
-  background-color: rgb(238, 238, 238);
+  background-color:#d4d1d1;
   padding: 50px;
   height: 200px; /* Should be removed. Only for demonstration */
 }
 .container {
-  color:bisque;
-  font-size: 20px;
+  color:black;
+  font-style: bold;
+  font-size: 70px;
   text-emphasis-color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 .jumbotron {
-  color:#253b44;
+  margin-bottom: 0px;
+  background-image: url(https://raw.githubusercontent.com/Cosette3737/D3-Challenge/main/D3_data_journalism/StarterCode/assets/js/newsphoto.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(10, 10, 10);
+  opacity: .9;
+  font: black;
+  font-size: 300px;
+  text-emphasis-color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font: bold;
 }
-
 /* Mobile Rules */
 @media screen and (max-width: 530px) {
   .stateText {

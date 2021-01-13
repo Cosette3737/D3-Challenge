@@ -180,8 +180,8 @@ d3.csv("assets/data/data.csv").then(function(incomedata, err) {
     .attr("cx", d => xLinearScale(d[chosenXAxis]))
     .attr("cy", d => yLinearScale(d[chosenYAxis]))
     .attr("r", 20)
-    .attr("fill", "blue")
-    .attr("opacity", ".5");
+    .attr("fill", "salmon")
+    .attr("opacity", ".25");
 
     var circletextGroup = chartGroup.selectAll()
     .data(incomedata)
@@ -190,7 +190,7 @@ d3.csv("assets/data/data.csv").then(function(incomedata, err) {
     .text(d => (d.abbr))
     .attr("x", d => xLinearScale(d[chosenXAxis]))
     .attr("y", d => yLinearScale(d[chosenYAxis]))
-    .style("font-size", "11px")
+    .style("font-size", "13px")
     .style("text-anchor", "middle")
     .style('fill', 'black');
 
