@@ -35,7 +35,7 @@ APP.JS is used to create a canvas to append the SVG chart within the HTML index 
 In the above selection of Axis, we can see that it appears to show a correlation between having a lower income and a higher incidence of smoking 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Demographics ##
+## Smoking verses Obesity ##
 ![Graph](https://github.com/Cosette3737/D3-Challenge/blob/main/D3_data_journalism/StarterCode/assets/js/smokingobesity.JPG)
 
 In the above selection of Axis, we can see that it appears to show a correlation between smoking habits and obesity. 
