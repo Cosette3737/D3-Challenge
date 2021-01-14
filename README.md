@@ -28,13 +28,13 @@ JS is used to create a canvas to append the SVG chart within the HTML index file
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Smoking verses Income ##
+## Smoking VS. Income ##
 ![Graph](https://github.com/Cosette3737/D3-Challenge/blob/main/D3_data_journalism/StarterCode/assets/js/smokingincome.JPG)
 
 In the graph above, it appears to show a correlation between having a lower income and a higher incidence of smoking. 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Smoking verses Obesity ##
+## Smoking VS. Obesity ##
 ![Graph](https://github.com/Cosette3737/D3-Challenge/blob/main/D3_data_journalism/StarterCode/assets/js/smokingobesity.JPG)
 
 In the above graph with selected parameters, it appears to show a correlation between smoking habits and obesity. 
