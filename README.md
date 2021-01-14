@@ -5,8 +5,9 @@
 
 # Project Scope
 
-THe D3-Challenge created an interactive visualization tool to find correlation between health risks, insurance, and poverty status whithin each state.  The chart allows the user to select which factors should be compared on each axis of the graph. 
-* For the scope of this project I utilized the following tools and languages:
+The D3-Challenge showcased an interactive visualization tool to find correlation between health risks, insurance, and poverty status whithin each of the 50 states.  The chart allows the user to select which factors should be compared on each axis of the graph. 
+
+* The scope of this project utilized the following tools and languages:
    
    - Visual Studio Code
     - HTML
