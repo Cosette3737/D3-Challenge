@@ -1,60 +1,44 @@
 # D3-Challenge
 
-![Bacteria Image](https://raw.githubusercontent.com/Cosette3737/Interactive-Visualizations/main/Images/bacteria2.jpg)
- ![BubbleGraph](https://raw.githubusercontent.com/Cosette3737/Interactive-Visualizations/main/Images/plots.JPG)
+![D3 photo](https://github.com/Cosette3737/D3-Challenge/blob/main/D3_data_journalism/StarterCode/assets/js/newsphoto.JPG)
+
 
 # Project Scope
 
-* For the scope of this project an interactive dashboard was created to explore the Belly Button Biodiversity Dataset. This dashboard allows the user to access the individual's data to analyze and visualize the demographic information, a bubbleplot and a bar graph. In order to complete this project we utilized the following tools and languages:
+THe D3-Challenge created an interactive visualization tool to find correlation between health risks, insurance, and poverty status whithin each state.  The chart allows the user to select which factors should be compared on each axis of the graph. 
+* For the scope of this project I utilized the following tools and languages:
    
    - Visual Studio Code
     - HTML
     - JavaScript
     - D3 
     - CSS
-    - JSON
-    - Plotly
+    - SVG
  
  
- ![dashboard](https://raw.githubusercontent.com/Cosette3737/Interactive-Visualizations/main/Images/bellybuttondash.JPG)
+ ![dashboard](https://github.com/Cosette3737/D3-Challenge/blob/main/D3_data_journalism/StarterCode/assets/js/complete.JPG)
  
 # Process
- - Dashboard Creation
-
-The first step was to import the samples.json file loaded into the App.js and pull the data needed from the json file.  The sample file consists of 3 lists including the names, metadata, and samples. After parsing the data, it is used in 4 different functions.  These functions include init, optionChanged, createMeta, and createPlots.  These functions help initialize the dashboard, select a test subject and create plots to visualize the data when there is a user change.  Giving the option to select the test subject, the dataset is interactive. 
+APP.JS is used to create a canvas to append the SVG chart within the HTML index file.  Data is parsed with a ForEach function, and appeneded to various variables to visualize the data on a interactive chart by utilizing multiple functions to render axis, text, circles, and update the tooltip. 
 
 
- - Styling
 
-After the plots are created and functioning, the dashboard is personalized with images, opacity, and font changes in the CSS file. 
+## Results ##
+![D3 BarChart](https://github.com/Cosette3737/D3-Challenge/blob/main/D3_data_journalism/StarterCode/assets/js/completedgraph.JPG)
 
-
-# Results
-
-## Barchart ##
-![Horizontal BarChart](https://raw.githubusercontent.com/Cosette3737/Interactive-Visualizations/main/Images/barchart.JPG)
-
-In the above horizontal barchart, it is easy to compare the test subjects top 10 OTU's in an easy to follow chart. 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## BubbleGraph ##
-![BubbleGraph](https://raw.githubusercontent.com/Cosette3737/Interactive-Visualizations/main/Images/bubblechart.JPG)
+## Smoking verses Income ##
+![Graph](https://github.com/Cosette3737/D3-Challenge/blob/main/D3_data_journalism/StarterCode/assets/js/smokingincome.JPG)
 
-In the above bubblegraph, it is easy to examine the OTUs of the test sample and the amount of the bacteria in each sample.  
+In the above selection of Axis, we can see that it appears to show a correlation between having a lower income and a higher incidence of smoking 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Demographics ##
+![Graph](https://github.com/Cosette3737/D3-Challenge/blob/main/D3_data_journalism/StarterCode/assets/js/smokingobesity.JPG)
 
-![Demographics](https://raw.githubusercontent.com/Cosette3737/Interactive-Visualizations/main/Images/demographics.JPG)
+In the above selection of Axis, we can see that it appears to show a correlation between smoking habits and obesity. 
 
-The demographic information is presented by using key-value pairs from the metadata extracted from the JSON file.  
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Gauge ##
-
-![Gauge](https://raw.githubusercontent.com/Cosette3737/Interactive-Visualizations/main/Images/plots.JPG)
-
-Extracting the selected test subjects number of washes per week (WFREQ), we can create a gauge to easily see the value of washes per week.  
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
