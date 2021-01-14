@@ -1,6 +1,6 @@
 # D3-Challenge
 
-![D3 photo](https://github.com/Cosette3737/D3-Challenge/blob/main/D3_data_journalism/StarterCode/assets/js/newsphoto.JPG)
+![D3 photo](https://github.com/Cosette3737/D3-Challenge/blob/main/D3_data_journalism/StarterCode/assets/js/newsphoto.jpg)
 
 
 # Project Scope
