@@ -1,5 +1,7 @@
 .iframeContainer {
-  padding: 50px;
+  padding-bottom: 80px;
+  padding-left: 300px;
+  padding-right:70px;
   border: 20px solid #d4d1d1;
 }
 
@@ -12,8 +14,8 @@ html {
 body {
   /* Padding bottom by footer height */
   padding-bottom: 80px;
-  padding-left: 100px;
-  padding-right:100px;
+  padding-left: 300px;
+  padding-right:70px;
   background-color:#d4d1d1;
 }
 #footer {
