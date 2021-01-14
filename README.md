@@ -19,8 +19,7 @@ THe D3-Challenge created an interactive visualization tool to find correlation b
  ![dashboard](https://github.com/Cosette3737/D3-Challenge/blob/main/D3_data_journalism/StarterCode/assets/js/complete.JPG)
  
 # Process
-APP.JS is used to create a canvas to append the SVG chart within the HTML index file.  Data is parsed with a ForEach function, and appeneded to various variables to visualize the data on a interactive chart by utilizing multiple functions to render axis, text, circles, and update the tooltip. 
-
+JS is used to create a canvas to append the SVG chart within the HTML index file.  Data is parsed with a ForEach function, and appeneded to various variables to visualize the data on a interactive chart by utilizing multiple functions to render axis, text, circles, and update the tooltip. 
 
 
 ## Results ##
@@ -32,13 +31,13 @@ APP.JS is used to create a canvas to append the SVG chart within the HTML index 
 ## Smoking verses Income ##
 ![Graph](https://github.com/Cosette3737/D3-Challenge/blob/main/D3_data_journalism/StarterCode/assets/js/smokingincome.JPG)
 
-In the above selection of Axis, we can see that it appears to show a correlation between having a lower income and a higher incidence of smoking 
+In the graph above, it appears to show a correlation between having a lower income and a higher incidence of smoking. 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Smoking verses Obesity ##
 ![Graph](https://github.com/Cosette3737/D3-Challenge/blob/main/D3_data_journalism/StarterCode/assets/js/smokingobesity.JPG)
 
-In the above selection of Axis, we can see that it appears to show a correlation between smoking habits and obesity. 
+In the above graph with selected parameters, it appears to show a correlation between smoking habits and obesity. 
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
